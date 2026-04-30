@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN pip install --no-cache-dir jupyterlab
 
-ENV port-8080
+ENV PORT-8080
 
 EXPOSE 8080
 
